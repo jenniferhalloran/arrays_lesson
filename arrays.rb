@@ -22,3 +22,6 @@ booleans = [true, false, false, true, false, true]
 # Calling unshift on this array will add an element to the beginning of the array.
 # In this scenario, it would append true to the front into index position 0.
 booleans.unshift(true)
+
+
+#Index positions in an array always begin with 0, so in my months array months[0] will return May. The last element's index number will always be the total number of elements +1.
