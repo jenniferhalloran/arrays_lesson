@@ -25,3 +25,9 @@ booleans.unshift(true)
 
 
 #Index positions in an array always begin with 0, so in my months array months[0] will return May. The last element's index number will always be the total number of elements +1.
+
+
+#Additional array method
+animals = ["cats", "dogs", "llamas"]
+#Calling reverse will return a new array containing the elements in reverse order. It would return ["llamas", "dogs", "cats"]
+animals.reverse
